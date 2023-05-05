@@ -1,0 +1,71 @@
+# .gitignore file for a Flask-RESTx project
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.so
+
+# Logs
+logs/
+*.log
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+.Python
+dist/
+build/
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+*.pyd
+pip-delete-this-directory.txt
+
+# Development-specific files
+node_modules/
+npm-debug.log
+
+# Test files
+.tox
+nosetests.xml
+coverage.xml
+.cache
+.pytest_cache/
+
+# Flask-RESTx specific files
+instance/
+*.sqlite
+*.db
+
+
+
+
+

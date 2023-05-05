@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Flask-RESTX Documentation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h2 class="my-4">Description</h2>
+        <p>This is a simple API to manage todos. The main purpose of this project is to show a simple API structure using Flask-RESTX.</p>
+        <h2 class="my-4">Structure</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">Models</h2>
+                <p class="card-text">The models are the data descriptor of our application, in many cases related to the database model. How each model is defined will heavily depend on the library you use to connect to your database.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">Routes</h2>
+                <p class="card-text">The routes are the URIs to our application, where we define our resources and actions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">Schemas</h2>
+                <p class="card-text">The schemas are the definitions for inputs and outputs of our API, what parameters are allowed, what information we will output. They correlate to our resources, but they are not necessarily the same as our models.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">Services</h2>
+                <p class="card-text">The services are modules that define application logic or interact with other services or the db layer. Routes should be as simple as possible and delegate all logic to the services.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+            <hr>
+            <h2>More details</h2>
+            <ul>
+                <li>
+                    Best practices: <a href="https://auth0.com/blog/best-practices-for-flask-api-development/"> Best practices for flask api development</a>
+                </li>
+                <li>
+                    Framework: <a href="https://flask-restx.readthedocs.io/en/latest/quickstart.html">Flask RESTX Documentation</a>
+                </li>
+            </ul>
+            <hr>
+        </div>
+      </div>
+</body>
+</html>
